@@ -1,0 +1,191 @@
+body{
+    background-color: 232323;
+}
+.fullscreenIcon{
+    float: right;
+}
+header{
+    margin: 10px;
+}
+.participantView{
+    margin-top: 2%;
+}
+.audioButton{
+    background: url('images/Audio\ icon.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-top: 70px;
+    border: none;
+}
+.videoButton{
+    background: url('images/Video\ icon.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-top: 70px;
+    border: none;
+}
+.phoneButton{
+    background: url('images/Phone\ icon.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-top: 70px;
+    border: none;
+}
+.participantsButton{
+    background: url('images/Participants\ icon.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-top: 70px;
+    border: none;
+}
+.chatButton{
+    background: url('images/Chat\ icon.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-top: 70px;
+    border: none;
+}
+.fileButton{
+    background: url('images/File\ icon.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-top: 70px;
+    border: none;
+}
+.shareButton{
+    background: url('images/Share\ screen\ icon.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-top: 70px;
+    border: none;
+}
+.recButton{
+    background: url('images/Record\ icon.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-top: 70px;
+    border: none;
+}
+.endButton{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 15px;
+    float: right;
+}
+.reactionButton{
+    background: url('images/Reaction\ icon.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-top: 70px;
+    border: none;
+}
+.breakButton{
+    background: url('images/breakout.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-top: 70px;
+    border: none;
+}
+.container-fluid{
+    justify-content: center;
+}
+#tooltip {
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+
+
+/* chip*/
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    border-radius: 25px;
+    background-color: white;
+
+  }
+  .chip img {
+    float: left;
+    margin: 0 10px 0 -5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 20%;
+    padding: 2px;    
+  }
+  /* sidebar */
+  .sidebar{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+    display: block;
+    transition: 0.3s;
+    }
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 35px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  /* ************************************** */
+  .participantNav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .participantNav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  .participantNav a:hover {
+    color: #f1f1f1;
+  }
+  .participantNav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .breakoutTeams{
+      text-indent: 20px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .participantNav {padding-top: 15px;}
+    .participantNav a {font-size: 18px;}
+  }
