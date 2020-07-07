@@ -89,6 +89,14 @@ header{
 .container-fluid{
     justify-content: center;
 }
+.timer{
+color: white;
+}
+
+.card-img-overlay{
+  text-align: left;
+}
+
 #tooltip {
     background-color: #333;
     color: white;
